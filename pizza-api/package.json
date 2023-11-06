@@ -2,9 +2,11 @@
   "name": "pizza-api",
   "version": "1.0.0",
   "description": "A pizza API, an example app from \"Serverless applications with Claudia.js\"",
-  "main": "app.js",
+  "main": "api.js",
   "files": [
-    "*.js"
+    "./**/*.js",
+    "./**/*.json",
+    "package.json"
   ],
   "scripts": {
     "create": "claudia create --region eu-central-1 --api-module api",
